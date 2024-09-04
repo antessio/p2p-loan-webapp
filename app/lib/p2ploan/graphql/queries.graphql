@@ -1,0 +1,8 @@
+query GetMyWallet{
+  myWallet{
+    id
+    amount
+    currency
+    ownerId
+  }
+}
